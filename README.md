@@ -1,5 +1,5 @@
 # PROYECTOS_curso
-# Equipo 0X - Nombre del curso
+# Equipo 01 - Thunder
 ### Carrera de Ingeniería Ambiental / Informática / Industrial  
 **Universidad Peruana Cayetano Heredia**
 
