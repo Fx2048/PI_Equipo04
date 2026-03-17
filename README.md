@@ -54,4 +54,4 @@ Ciudades y Comunidades Sostenibles (ODS 11)
 Acción por el Clima (ODS 13)
 
 Cada integrante aporta desde su rol —liderazgo, investigación, diseño, documentación y programación— para fortalecer el trabajo colaborativo. La visión del equipo es integrar sostenibilidad, innovación y compromiso social en proyectos que respondan a los desafíos actuales y futuros.
-New
+viajes con commit
