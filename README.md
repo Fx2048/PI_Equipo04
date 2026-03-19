@@ -45,12 +45,8 @@ El grupo centra sus esfuerzos en los Objetivos de Desarrollo Sostenible (ODS):
 
 Salud y Bienestar (ODS 3)
 
-Agua Limpia y Saneamiento (ODS 6)
-
-Industria, Innovación e Infraestructura (ODS 9)
-
 Ciudades y Comunidades Sostenibles (ODS 11)
 
-Acción por el Clima (ODS 13)
+Alianzas para lograr objetivos (ODS 17)
 
 Cada integrante aporta desde su rol —liderazgo, investigación, diseño, documentación y programación— para fortalecer el trabajo colaborativo. La visión del equipo es integrar sostenibilidad, innovación y compromiso social en proyectos que respondan a los desafíos actuales y futuros.
