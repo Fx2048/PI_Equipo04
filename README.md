@@ -1,4 +1,5 @@
-# PROYECTOS_curso
+<img width="1919" height="383" alt="image" src="https://github.com/user-attachments/assets/d5be8863-1d69-4bd2-8e8a-ad136ea38258" />
+
 # Equipo 04 - Thunder
 ### Carrera de Ingeniería Ambiental / Informática 
 **Universidad Peruana Cayetano Heredia**
