@@ -19,4 +19,4 @@ Esperamos algunos minutos y se obtiene lo siguiente:
 Tambien usaremos una simulación donde influyen dos fuerzas en contra y lo empezamos a correr:
 <img width="1920" height="1080" alt="Captura de pantalla 2026-03-24 124105" src="https://github.com/user-attachments/assets/79e01663-00c5-42a2-a73a-6d3fc9455085" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2aae26bc-beb0-425a-891a-5c0d519acec3" />
-
+**FIN**
