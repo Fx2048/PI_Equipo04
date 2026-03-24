@@ -1,5 +1,5 @@
 
-[Informe_grupal_Bernal (1).md](https://github.com/user-attachments/files/26222097/Informe_grupal_Bernal.1.md)
+[Informe](https://github.com/user-attachments/files/26222097/Informe_grupal_Bernal.1.md)
 <img width="1919" height="399" alt="image" src="https://github.com/user-attachments/assets/720dbc11-074b-4150-a9fe-5b28124303e4" />
 
 Introducción:
