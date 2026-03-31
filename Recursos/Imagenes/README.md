@@ -166,6 +166,9 @@
 > *No es un gasto. Es una **inversión con retorno medible en pérdidas evitadas**.*
 > *Y la arquitectura permite escalar de 3 a 50 zonas sin cambiar el modelo de costos."*
 
+
+<img width="1063" height="343" alt="image" src="https://github.com/user-attachments/assets/9622c639-b7c9-4e04-ba10-987a931db650" />
+
 ---
 
 
