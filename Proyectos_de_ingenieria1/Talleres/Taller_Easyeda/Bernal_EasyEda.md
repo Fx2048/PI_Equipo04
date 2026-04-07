@@ -16,6 +16,7 @@ Primero se realizó la conexión con los distintos sensores, tanto de precipitac
 ### Se recubre con la selección de cobre
 
 <img width="379" height="342" alt="image" src="https://github.com/user-attachments/assets/5613b56e-c99e-4914-ae41-1ef6d9422d50" />
+
 # Finalmente
 Este es el resultado de la exploración en EasyEda, agradezco su atención.
 Muchas gracias.
@@ -23,5 +24,5 @@ Muchas gracias.
 
 <img width="1550" height="701" alt="image" src="https://github.com/user-attachments/assets/dd6a486e-724b-4120-8b00-e8e86c6449fc" />
 
-# Archivo original:
+# (Archivo original)[https://github.com/Fx2048/PI_Equipo04/blob/main/Recursos/Documentos/PCB_PCB1_2026-04-07.pdf]
 
