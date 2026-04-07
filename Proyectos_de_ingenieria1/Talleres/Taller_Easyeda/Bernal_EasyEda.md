@@ -24,5 +24,5 @@ Muchas gracias.
 
 <img width="1550" height="701" alt="image" src="https://github.com/user-attachments/assets/dd6a486e-724b-4120-8b00-e8e86c6449fc" />
 
-# (Archivo original)[https://github.com/Fx2048/PI_Equipo04/blob/main/Recursos/Documentos/PCB_PCB1_2026-04-07.pdf]
+# [Archivo original](https://github.com/Fx2048/PI_Equipo04/blob/main/Recursos/Documentos/PCB_PCB1_2026-04-07.pdf)
 
