@@ -4,7 +4,7 @@
 <img width="1122" height="768" alt="image" src="https://github.com/user-attachments/assets/4b1f7aff-41b9-47dc-868f-f43e4c04de37" />
 
 2. Enroutamiento en el PCB
-<img width="729" height="633" alt="image" src="https://github.com/user-attachments/assets/1f00bb64-694b-4717-8cc1-6ffdf616abe8" />
+<img width="666" height="622" alt="image" src="https://github.com/user-attachments/assets/0af1bd91-8e21-46cc-9fcf-1d7c66fbe610" />
 <img width="1146" height="560" alt="image" src="https://github.com/user-attachments/assets/bc9ff933-1777-463a-8b0f-f242a188a7d8" />
 <img width="964" height="615" alt="image" src="https://github.com/user-attachments/assets/f7de25e3-465d-4e64-9542-4ddb733520b2" />
 
