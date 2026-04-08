@@ -14,6 +14,5 @@ Luego se añadió un capa de cobre al PCB:
 
 <img width="501" height="396" alt="Captura de pantalla 2026-04-07 185228" src="https://github.com/user-attachments/assets/3b3f8cf5-aa85-44d3-8775-e441a558ae79" />
 
-Adjunto la carpeta ZIP del PCB:
 
 
