@@ -99,3 +99,15 @@ void loop() {
 #### Imagen de nueva configuración exitosa mostrando en pantalla del dashboard la temperatura 80.99°C:
 
 <img width="1600" height="739" alt="image" src="https://github.com/user-attachments/assets/b19afdf7-1930-475f-9697-53e593f04250" />
+
+
+### Resultados
+
+
+A continuación, se expresa la caracterización del sistema IoT detallada en los resultados obtenidos:
+
+El sistema de adquisición de datos registró una resolución de cuantización de 12 bits, correspondiente a un rango de entrada de $0$ a $4095$ unidades enteras procesadas por el convertidor analógico-digital (ADC) del microcontrolador. Estos valores fueron transformados mediante un algoritmo de mapeo lineal en un ciclo de trabajo para modulación por ancho de pulsos (PWM) con una resolución de 8 bits ($0$ a $255$), manteniendo una proporcionalidad directa en la salida de voltaje del pin GPIO 2.
+
+Durante las pruebas de conectividad en la banda de 2.4 GHz, el dispositivo identificó y listó la totalidad de los identificadores de conjunto de servicios (SSID) disponibles en el área de cobertura, validando la operatividad de la capa física y de enlace. 
+
+En la fase de telemetría, se verificó el procesamiento de tramas de datos en formato JSON mediante el protocolo MQTT, alcanzando una precisión de transmisión de dos cifras decimales (e.g., $80.99$). La latencia observada entre la inyección del mensaje en el cliente MQTTX y la actualización del valor en el dashboard de Node-RED se mantuvo dentro de los parámetros de tiempo real para monitoreo industrial, sin registrarse pérdida de paquetes ni errores de integridad en la carga útil (payload) durante las iteraciones de prueba programadas.
