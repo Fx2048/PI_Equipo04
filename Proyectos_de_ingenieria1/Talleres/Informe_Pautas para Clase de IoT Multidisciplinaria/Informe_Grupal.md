@@ -41,12 +41,13 @@
 
 #### Imagen de la aplicación MQTTX, inicializando el mensaje en la conexión Taller-IOT con el nuevo código:
 
-´´´´
+
+````
 {
   "temp": "80.99"
 }
 
-´´´´
+````
 
 <img width="1228" height="1022" alt="image" src="https://github.com/user-attachments/assets/f7529990-8b5e-47e4-b722-c2c8e0520ce9" />
 
