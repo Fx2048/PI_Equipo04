@@ -8,6 +8,42 @@
 
 <img width="1600" height="890" alt="image" src="https://github.com/user-attachments/assets/e1e6f9a0-9225-4150-93c6-5608722d0b69" />
 
+### Imagen del led prendiéndose:
+
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/661efe3a-e777-44cf-b84a-9b81d57d4a77" />
+
+### Imagen del led anexado al código fuente:
+
+````
+const int potPin = 34;
+const int ledPin = 2;
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int valorPot = analogRead(potPin);  // 0 a 4095
+
+  // Mapea de 0-4095 a 0-255
+  int brillo = map(valorPot, 0, 4095, 0, 255);
+
+  analogWrite(ledPin, brillo);  // PWM proporcional
+
+  Serial.print("Potenciometro: ");
+  Serial.print(valorPot);
+  Serial.print(" | Brillo: ");
+  Serial.println(brillo);
+
+  delay(100);
+}
+
+````
+
+<img width="1204" height="1600" alt="image" src="https://github.com/user-attachments/assets/f40129fc-74ad-4cfa-bad8-9ca76484f51a" />
+
+
 
 ### Imagen de Reto 2: Conexión de red /Internet Esp32
 
