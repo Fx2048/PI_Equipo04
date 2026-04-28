@@ -37,6 +37,13 @@
 
 #### Imagen de la primera configuración exitosa mostrando en pantalla del dashboard la temperatura 20.5°C:
 
+````
+{
+  "temp": "20.5"
+}
+
+````
+
 <img width="1600" height="774" alt="image" src="https://github.com/user-attachments/assets/96b9404f-7cd5-4d6c-a3bd-5543dd3757cb" />
 
 #### Imagen de la aplicación MQTTX, inicializando el mensaje en la conexión Taller-IOT con el nuevo código:
