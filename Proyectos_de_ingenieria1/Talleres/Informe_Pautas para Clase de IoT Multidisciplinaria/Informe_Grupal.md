@@ -1,7 +1,7 @@
 <img width="1914" height="408" alt="image" src="https://github.com/user-attachments/assets/ea276535-1afb-491d-a723-c80aa9b4b952" />
 ## INTRODUCCIÓN
 
-### Esta práctica documenta la implementación de un ecosistema IoT basado en el microcontrolador ESP32, orientado a la adquisición de datos, conectividad inalámbrica y visualización remota de parámetros. El sistema integra el procesamiento de señales analógicas, la gestión de redes mediante protocolos TCP/IP y la transmisión de información bajo el estándar MQTT, permitiendo la supervisión técnica de variables en tiempo real.
+#### Esta práctica documenta la implementación de un ecosistema IoT basado en el microcontrolador ESP32, orientado a la adquisición de datos, conectividad inalámbrica y visualización remota de parámetros. El sistema integra el procesamiento de señales analógicas, la gestión de redes mediante protocolos TCP/IP y la transmisión de información bajo el estándar MQTT, permitiendo la supervisión técnica de variables en tiempo real.
 
 ### Imagen de Reto 1: Adquisición de datos
 
