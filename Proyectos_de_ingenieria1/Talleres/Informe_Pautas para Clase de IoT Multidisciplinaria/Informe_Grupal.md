@@ -133,6 +133,14 @@ Durante las pruebas de conectividad en la banda de 2.4 GHz, el dispositivo ident
 
 En la fase de telemetría, se verificó el procesamiento de tramas de datos en formato JSON mediante el protocolo MQTT, alcanzando una precisión de transmisión de dos cifras decimales (e.g., $80.99$). La latencia observada entre la inyección del mensaje en el cliente MQTTX y la actualización del valor en el dashboard de Node-RED se mantuvo dentro de los parámetros de tiempo real para monitoreo industrial, sin registrarse pérdida de paquetes ni errores de integridad en la carga útil (payload) durante las iteraciones de prueba programadas.
 
+## DISCUSIÓN DE LOS RESULTADOS
+
+Los resultados obtenidos muestran que el sistema IoT desarrollado logró cumplir con las tres etapas planteadas en la práctica. En el primer reto, el ESP32 permitió leer correctamente los valores analógicos del potenciómetro y transformarlos en una señal PWM para regular la intensidad del LED. Esto confirma que la adquisición y procesamiento básico de datos funcionó de manera adecuada, ya que se mantuvo una relación proporcional entre el valor leído y el brillo generado.
+
+En el segundo reto, el escaneo de redes WiFi permitió comprobar que el ESP32 reconoce las redes disponibles en su entorno, validando su capacidad de conectividad inalámbrica. Este resultado es importante porque demuestra que el dispositivo puede integrarse a una red, lo cual es fundamental para cualquier aplicación IoT.
+
+Finalmente, en el tercer reto se verificó la transmisión de datos mediante MQTT y su visualización en Node-RED. Los valores enviados en formato JSON, como 20.5 °C y 80.99 °C, fueron mostrados correctamente en el dashboard, evidenciando que la comunicación entre MQTTX, el broker y Node-RED fue exitosa. Además, el informe indica que no se registraron pérdidas de paquetes ni errores en los datos transmitidos durante las pruebas.
+
 ## CONCLUSIÓN
 
 La implementación del ecosistema IoT basado en el microcontrolador ESP32 demostró la viabilidad técnica de integrar adquisición de datos, conectividad inalámbrica y visualización remota en una arquitectura funcional y escalable. A lo largo de las tres etapas desarrolladas, se verificó el correcto desempeño de cada componente del sistema, validando la robustez de las tecnologías empleadas.
