@@ -132,3 +132,15 @@ El sistema de adquisición de datos registró una resolución de cuantización d
 Durante las pruebas de conectividad en la banda de 2.4 GHz, el dispositivo identificó y listó la totalidad de los identificadores de conjunto de servicios (SSID) disponibles en el área de cobertura, validando la operatividad de la capa física y de enlace. 
 
 En la fase de telemetría, se verificó el procesamiento de tramas de datos en formato JSON mediante el protocolo MQTT, alcanzando una precisión de transmisión de dos cifras decimales (e.g., $80.99$). La latencia observada entre la inyección del mensaje en el cliente MQTTX y la actualización del valor en el dashboard de Node-RED se mantuvo dentro de los parámetros de tiempo real para monitoreo industrial, sin registrarse pérdida de paquetes ni errores de integridad en la carga útil (payload) durante las iteraciones de prueba programadas.
+
+## CONCLUSIÓN
+
+La implementación del ecosistema IoT basado en el microcontrolador ESP32 demostró la viabilidad técnica de integrar adquisición de datos, conectividad inalámbrica y visualización remota en una arquitectura funcional y escalable. A lo largo de las tres etapas desarrolladas, se verificó el correcto desempeño de cada componente del sistema, validando la robustez de las tecnologías empleadas.
+
+En la fase de adquisición, el ESP32 procesó señales analógicas con una resolución de 12 bits, aplicando un mapeo lineal efectivo hacia una salida PWM de 8 bits que permitió el control proporcional de la intensidad lumínica del LED, evidenciando una respuesta lineal y estable del sistema físico.
+
+La etapa de conectividad confirmó la capacidad del dispositivo para operar en la banda de 2.4 GHz, ejecutando con éxito el escaneo y visualización de redes disponibles, lo que valida la integridad de la capa física y de enlace bajo el estándar IEEE 802.11.
+
+Finalmente, la arquitectura de mensajería MQTT, complementada con el procesamiento en Node-RED, permitió la transmisión de telemetría en tiempo real con alta precisión (dos decimales) y sin pérdida de paquetes. La latencia observada se mantuvo dentro de parámetros aceptables para aplicaciones de monitoreo, confirmando la confiabilidad del protocolo para entornos industriales.
+
+En conjunto, el sistema desarrollado constituye una plataforma sólida para la supervisión remota de variables físicas, sentando las bases para futuras ampliaciones que incorporen sensores adicionales, almacenamiento histórico o control bidireccional.
