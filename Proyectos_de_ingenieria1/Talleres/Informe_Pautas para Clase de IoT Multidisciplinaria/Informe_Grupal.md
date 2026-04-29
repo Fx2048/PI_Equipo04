@@ -18,6 +18,8 @@
    *  Procesamiento en el Servidor: La integración se completó en Node-RED, donde un nodo de función ejecutó el parsing de los datos (conversión de cadena a punto flotante) para su visualización.
    *  Visualización: Se configuró un panel de control (dashboard) equipado con indicadores gráficos (gauges) que reflejan el estado dinámico de la variable procesada, asegurando una monitorización eficient
 
+## RESULTADOS
+
 ### Imagen de Reto 1: Adquisición de datos
 
 <img width="1600" height="1204" alt="image" src="https://github.com/user-attachments/assets/3273e554-44ed-4b05-a665-b6d124f8e14d" />
