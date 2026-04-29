@@ -1,9 +1,24 @@
 <img width="1914" height="408" alt="image" src="https://github.com/user-attachments/assets/ea276535-1afb-491d-a723-c80aa9b4b952" />
-```
+
 ## INTRODUCCIÓN
 
 #### Esta práctica documenta la implementación de un ecosistema IoT basado en el microcontrolador ESP32, orientado a la adquisición de datos, conectividad inalámbrica y visualización remota de parámetros. El sistema integra el procesamiento de señales analógicas, la gestión de redes mediante protocolos TCP/IP y la transmisión de información bajo el estándar MQTT, permitiendo la supervisión técnica de variables en tiempo real.
-```
+
+## METODOLOGÍA
+
+####  El desarrollo se articuló en tres etapas técnicas fundamentales:
+1. Adquisición y procesamiento de datos: Se configuró un ESP32 para leer valores analógicos de un potenciómetro. Estos datos fueron procesados mediante una función de mapeo para controlar la intensidad lumínica de un LED mediante modulación por ancho de pulso (PWM) del pin D2.
+
+2. Conectividad de Red: Se estableció una conexión inalámbricadel ESP32 mediante la librería WiFi.h, permitiendo al dispositivo escanear, visualizar y conectarse a redes disponibles mediante la consola serial.
+
+3. Arquitectura de Mensajería y Telemetría MQTT:
+
+. Publicación de Datos: Se empleó MQTTX como cliente de diagnóstico y publicación, actuando como la interfaz de prueba para inyectar payloads en formato JSON hacia el broker definido.
+
+. Procesamiento en el Servidor: La integración se completó en Node-RED, donde un nodo de función ejecutó el parsing de los datos (conversión de cadena a punto flotante) para su visualización.
+
+. Visualización: Se configuró un panel de control (dashboard) equipado con indicadores gráficos (gauges) que reflejan el estado dinámico de la variable procesada, asegurando una monitorización eficient
+
 ### Imagen de Reto 1: Adquisición de datos
 
 <img width="1600" height="1204" alt="image" src="https://github.com/user-attachments/assets/3273e554-44ed-4b05-a665-b6d124f8e14d" />
