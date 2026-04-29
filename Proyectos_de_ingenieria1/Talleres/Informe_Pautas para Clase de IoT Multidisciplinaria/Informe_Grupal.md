@@ -7,17 +7,16 @@
 ## METODOLOGÍA
 
 ####  El desarrollo se articuló en tres etapas técnicas fundamentales:
-1. Adquisición y procesamiento de datos: Se configuró un ESP32 para leer valores analógicos de un potenciómetro. Estos datos fueron procesados mediante una función de mapeo para controlar la intensidad lumínica de un LED mediante modulación por ancho de pulso (PWM) del pin D2.
+1. Adquisición y procesamiento de datos:
+ Se configuró un ESP32 para leer valores analógicos de un potenciómetro. Estos datos fueron procesados mediante una función de mapeo para controlar la intensidad lumínica de un LED mediante modulación por ancho de pulso (PWM) del pin D2.
 
-2. Conectividad de Red: Se estableció una conexión inalámbricadel ESP32 mediante la librería WiFi.h, permitiendo al dispositivo escanear, visualizar y conectarse a redes disponibles mediante la consola serial.
+3. Conectividad de Red:
+ Se estableció una conexión inalámbricadel ESP32 mediante la librería WiFi.h, permitiendo al dispositivo escanear, visualizar y conectarse a redes disponibles mediante la consola serial.
 
-3. Arquitectura de Mensajería y Telemetría MQTT:
-
-. Publicación de Datos: Se empleó MQTTX como cliente de diagnóstico y publicación, actuando como la interfaz de prueba para inyectar payloads en formato JSON hacia el broker definido.
-
-. Procesamiento en el Servidor: La integración se completó en Node-RED, donde un nodo de función ejecutó el parsing de los datos (conversión de cadena a punto flotante) para su visualización.
-
-. Visualización: Se configuró un panel de control (dashboard) equipado con indicadores gráficos (gauges) que reflejan el estado dinámico de la variable procesada, asegurando una monitorización eficient
+5. Arquitectura de Mensajería y Telemetría MQTT:
+   * Publicación de Datos: Se empleó MQTTX como cliente de diagnóstico y publicación, actuando como la interfaz de prueba para inyectar payloads en formato JSON hacia el broker definido.
+   *  Procesamiento en el Servidor: La integración se completó en Node-RED, donde un nodo de función ejecutó el parsing de los datos (conversión de cadena a punto flotante) para su visualización.
+   *  Visualización: Se configuró un panel de control (dashboard) equipado con indicadores gráficos (gauges) que reflejan el estado dinámico de la variable procesada, asegurando una monitorización eficient
 
 ### Imagen de Reto 1: Adquisición de datos
 
