@@ -1,6 +1,8 @@
 <img width="1914" height="408" alt="image" src="https://github.com/user-attachments/assets/ea276535-1afb-491d-a723-c80aa9b4b952" />
 ## INTRODUCCIÓN
+
 ### Esta práctica documenta la implementación de un ecosistema IoT basado en el microcontrolador ESP32, orientado a la adquisición de datos, conectividad inalámbrica y visualización remota de parámetros. El sistema integra el procesamiento de señales analógicas, la gestión de redes mediante protocolos TCP/IP y la transmisión de información bajo el estándar MQTT, permitiendo la supervisión técnica de variables en tiempo real.
+
 ### Imagen de Reto 1: Adquisición de datos
 
 <img width="1600" height="1204" alt="image" src="https://github.com/user-attachments/assets/3273e554-44ed-4b05-a665-b6d124f8e14d" />
@@ -9,11 +11,11 @@
 
 <img width="1600" height="890" alt="image" src="https://github.com/user-attachments/assets/e1e6f9a0-9225-4150-93c6-5608722d0b69" />
 
-### Imagen del led prendiéndose:
+#### Imagen del led prendiéndose:
 
 <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/661efe3a-e777-44cf-b84a-9b81d57d4a77" />
 
-### Imagen del led anexado al código fuente:
+#### Imagen del led anexado al código fuente:
 
 ````
 const int potPin = 34;
