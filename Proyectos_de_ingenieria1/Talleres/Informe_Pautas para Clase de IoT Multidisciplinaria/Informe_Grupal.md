@@ -122,7 +122,7 @@ void loop() {
 <img width="1600" height="739" alt="image" src="https://github.com/user-attachments/assets/b19afdf7-1930-475f-9697-53e593f04250" />
 
 
-### Resultados
+### Análisis de los Resultados
 
 
 A continuación, se expresa la caracterización del sistema IoT detallada en los resultados obtenidos:
