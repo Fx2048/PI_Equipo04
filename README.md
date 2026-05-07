@@ -270,12 +270,11 @@ Curso: Proyectos de Ingeniería 2026-1
 ```
 
 ### 🔗 Enlaces de Interés
-- [🗺️ MVP en Lovable](https://cultiva-seguro.lovable.app/)
+- [🗺️ MVP en Lovable](https://cultiva-seguro.lovable.app/presentacion)
 - [🛰️ Sentinel Hub](https://www.sentinel-hub.com/)
 - [🌍 Google Earth Engine](https://earthengine.google.com/)
 - [📊 SENAMHI](https://www.senamhi.gob.pe/)
 
----
 
 > 💬 *"Un campo que se anticipa, es una cosecha que nunca muere."*  
 > **— Equipo Thunder | WILLAY**
