@@ -117,7 +117,7 @@ De acuerdo con la guía oficial de Seeed Studio, se esperaba:
 
 El resultado obtenido fue una configuración fallida.
 
-Los síntomas observados fueron los siguientes:
+Las observaciones fueron las siguientes:
 
 * El sistema no estableció conexión con el broker MQTT.
 * No se generó transmisión de datos.
