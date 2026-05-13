@@ -1,3 +1,4 @@
+<img width="1536" height="302" alt="image" src="https://github.com/user-attachments/assets/1c9d799d-daff-438c-a0ba-2905ae2685c6" />
 
 
 # Informe Técnico – Configuración MQTT  en SenseCraft AI con XIAO
